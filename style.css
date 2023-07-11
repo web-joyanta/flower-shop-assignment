@@ -1,0 +1,56 @@
+/* ==============Common Style Start============= */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.btn{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    padding: 20px 43px;
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    background: rgba(229, 84, 115, 0.10);
+}
+/* ==============Common Style End============= */
+/* =============Banner Part Start============= */
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 197px 240px 147px 240px;
+    max-height: 675px;
+    align-items: center;
+}
+.banner-left h1{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+}
+.banner-left p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 30px 0;
+    max-width: 660px;
+}
+.banner-left{
+    max-width: 700px;
+}
+.banner-right{
+    max-width: 500px;
+}
+.banner-right img{
+    max-width: 500px;
+}
+/* =============Banner Part End============= */
