@@ -17,8 +17,24 @@
     padding: 20px 43px;
     font-family: 'Roboto', sans-serif;
 }
-section{
+.text-style{
+    color: #E55473;
+}
+#bg-color{
     background: rgba(229, 84, 115, 0.10);
+    margin-bottom: 128px;
+}
+h3{
+    color: #272727;
+    text-align: center;;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+}
+#common-section{
+    max-width: 1450px;
+    margin: 0 auto;
+    margin-bottom: 120px;
 }
 /* ==============Common Style End============= */
 /* =============Banner Part Start============= */
@@ -54,3 +70,88 @@ section{
     max-width: 500px;
 }
 /* =============Banner Part End============= */
+/* ============Featured Part Start========== */
+#common-section p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px 400px;
+    margin: 20px 0 48px 0;
+}
+.flower-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.flower-container .flower-item1 img{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 110px 76px 0px 76px;
+}
+.flower-container .flower-item2 img{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 117px 47px 51px 47px;
+}
+.flower-container .flower-item3 img{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 67px 75px 0px 75px;
+}
+.flower-container h5{
+    color: #272727;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-top: 20px;
+}
+/* ============Featured Part End============ */
+/* ============Free Part Start========== */
+
+.group-container{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+.group-container .group-item{
+    text-align: center;
+    padding: 86px 0;
+}
+.group-container .group-item h6{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 35px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+/* ============Free Part End========== */
+/* ============Hot Deal Part Start============ */
+.hot-deal-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 300px;
+    text-align: center;
+}
+.hot-deal-container p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 580px;
+    margin: 24px 0;
+}
+/* ============Hot Deal Part End============ */
+/* ===========Instagram Part Start=========== */
+.items-container{
+    display: flex;
+    justify-content: space-between;
+}
+/* ===========Instagram Part End=========== */
